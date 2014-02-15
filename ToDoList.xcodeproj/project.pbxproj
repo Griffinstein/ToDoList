@@ -24,6 +24,7 @@
 		85B6589A18A1287D00EE4017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B6589918A1287D00EE4017 /* Main.storyboard */; };
 		85B6589D18A1393B00EE4017 /* XYZAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B6589C18A1393B00EE4017 /* XYZAddToDoItemViewController.m */; };
 		85B658A018A13AC300EE4017 /* XYZToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B6589F18A13AC300EE4017 /* XYZToDoList.m */; };
+		85B658A318AFA51400EE4017 /* XYZToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B658A218AFA51400EE4017 /* XYZToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		85B6589C18A1393B00EE4017 /* XYZAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZAddToDoItemViewController.m; sourceTree = "<group>"; };
 		85B6589E18A13AC300EE4017 /* XYZToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoList.h; sourceTree = "<group>"; };
 		85B6589F18A13AC300EE4017 /* XYZToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoList.m; sourceTree = "<group>"; };
+		85B658A118AFA51400EE4017 /* XYZToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoItem.h; sourceTree = "<group>"; };
+		85B658A218AFA51400EE4017 /* XYZToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				85B6589918A1287D00EE4017 /* Main.storyboard */,
 				85B6589E18A13AC300EE4017 /* XYZToDoList.h */,
 				85B6589F18A13AC300EE4017 /* XYZToDoList.m */,
+				85B658A118AFA51400EE4017 /* XYZToDoItem.h */,
+				85B658A218AFA51400EE4017 /* XYZToDoItem.m */,
 				85B6589B18A1393B00EE4017 /* XYZAddToDoItemViewController.h */,
 				85B6589C18A1393B00EE4017 /* XYZAddToDoItemViewController.m */,
 				85B6586B18A1244900EE4017 /* Supporting Files */,
@@ -280,6 +285,7 @@
 				85B6587518A1244900EE4017 /* XYZAppDelegate.m in Sources */,
 				85B6589D18A1393B00EE4017 /* XYZAddToDoItemViewController.m in Sources */,
 				85B658A018A13AC300EE4017 /* XYZToDoList.m in Sources */,
+				85B658A318AFA51400EE4017 /* XYZToDoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
