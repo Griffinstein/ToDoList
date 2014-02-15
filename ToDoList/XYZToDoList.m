@@ -7,12 +7,27 @@
 //
 
 #import "XYZToDoList.h"
+#import "XYZToDoItem.h"
 
 @interface XYZToDoList ()
+
+@property NSMutableArray *toDoItems;
 
 @end
 
 @implementation XYZToDoList
+
+- (void)loadInitialData {
+    XYZToDoItem *item1 = [[XYZToDoItem alloc] init];
+    item1.itemName = @"Buy milk";
+    [self.toDoItems addObject:item1];
+    XYZToDoItem *item2 = [[XYZToDoItem alloc] init];
+    item2.itemName = @"Buy shoes";
+    [self.toDoItems addObject:item2];
+    XYZToDoItem *item3 = [[XYZToDoItem alloc] init];
+    item3.itemName = @"Buy eggs";
+    [self.toDoItems addObject:item3];
+}
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue
 {
@@ -31,6 +46,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.toDoItems = [[NSMutableArray alloc] init];
+    [self loadInitialData];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -73,7 +90,8 @@
 
 /*
 // Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+
+ - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
     return YES;
